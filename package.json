@@ -7,7 +7,6 @@
   "homepage": "",
   "contributors": [ "Anthony Meirlaen <anthony.meirlaen@gmail.com> (https://github.com/Toinne)" ],
   "bugs": { "url": "" },
-  "scripts": { "start": "forever restart server.js" },
   "dependencies": {
   },
   "devDependencies": {
