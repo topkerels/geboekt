@@ -7,4 +7,4 @@ set :deploy_to, "/var/www/geboekt"
 
 set :user, "root"
 
-role :app, "geboekt.gent"
+role :app, "hackdebib.wbdrp.be"
