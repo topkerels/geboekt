@@ -8,6 +8,8 @@
   "contributors": [ "Anthony Meirlaen <anthony.meirlaen@gmail.com> (https://github.com/Toinne)" ],
   "bugs": { "url": "" },
   "dependencies": {
+    "express": "4.12.3",
+    "ejs": "2.3.1"
   },
   "devDependencies": {
   },
