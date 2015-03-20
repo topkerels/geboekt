@@ -15,8 +15,3 @@ fs.readFile('./index.html', function (err, html) {
 
 /* server started */
 util.puts('> geboekt.gent running on port 8000');
-
-setTimeout(function () {
-    util.puts('Throwing error now.');
-    throw new Error('User generated fault.');
-}, 5000);
