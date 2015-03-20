@@ -11,6 +11,9 @@
     "preinstall" : "forever stopall",
     "start": "forever server.js"
   },
+  "config": {
+    "unsafe-perm":true
+  },
   "dependencies": {
     "express": "4.12.3",
     "ejs": "2.3.1"
