@@ -13,6 +13,12 @@ $(document).ready(function() {
         event.preventDefault();
 
         $('.book-long').slideToggle();
+
+        if ($(this).html() == 'Lees meer') {
+            $(this).html('Lees minder');
+        } else {
+            $(this).html('Lees meer');
+        }
     });
 
     $('#reserve-btn').on('click', function(event) {
