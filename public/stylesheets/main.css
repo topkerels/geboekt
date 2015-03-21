@@ -71,6 +71,7 @@ table {
 
 .container {
     height: 100%;
+    box-sizing: border-box;
 }
 
 .hero-herman {
@@ -79,4 +80,21 @@ table {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.center {
+    box-sizing: border-box;
+    padding: 5%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.center .title-container {
+    display: block;
+    width: 100%;
+}
+
+.center .title {
+    max-width: 800px;
+    margin: 0 auto;
 }
