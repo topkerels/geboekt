@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <title>Geboekt - lees eens een boek</title>
 
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-    <link href='/stylesheets/jquery.fullpage.css' rel='stylesheet' type='text/css'>
-    <link href='/stylesheets/main.css' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css' />
+    <link href='/stylesheets/jquery.fullpage.css' rel='stylesheet' type='text/css' />
+    <link href='/stylesheets/main.css' rel='stylesheet' type='text/css' />
 </head>
 <body>
 
@@ -16,15 +16,25 @@
             <div class="container hero hero-herman">
                 <div class="center">
                     <h2 class="title-container">
-                        <img class="title" src="/images/title-anthony.png">
+                        <img class="title" src="/images/<%= banner.title %>" />
                     </h2>
                 </div>
             </div>
         </div>
         <div class="section">
             <div class="container">
-                <h2>Ge zijt geboekt</h2>
-
+                <img class="book-cover" src="/images/<%= book.cover %>" />
+                <h2 class="book-title"><%= book.title %></h2>
+                <div class="book-author"><%= book.author %></div>
+                <div class="book-short"><%= book.short %></div>
+                <div class="book-long"><%= book.long %></div>
+                <div class="book-quote"><%= book.quote %></div>
+                <div class="navigate">
+                    <img src="/images/nav.png" />
+                    <p>Je bent amper 600m van de bib verwijderd. Wat is jouw excuus?</p>
+                </div>
+                <div class="reserve">
+                </div>
             </div>
         </div>
     </div>
