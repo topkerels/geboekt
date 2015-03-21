@@ -1,5 +1,8 @@
 /* RESET */
-
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+* {
+    box-sizing: border-box;
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -72,6 +75,7 @@ table {
 .container {
     height: 100%;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .hero-herman {
@@ -97,4 +101,33 @@ table {
 .center .title {
     max-width: 800px;
     margin: 0 auto;
+}
+
+.section:nth-child(2) {
+    padding: 100px 20px 40px 20px;
+}
+
+.title-container .title {
+    width: 100%;
+    height: auto;
+    margin-top: calc(50vh - 50%);
+}
+
+.book-cover {
+    float: left;
+    width: 30%;
+    height: auto;
+}
+
+.book-title, .book-short,  {
+    float: left;
+    width: 70%;
+    padding-left: 20px;
+}
+
+.book-quote {
+    display: block;
+    clear: both;
+    background: url("/images/quote.png") no-repeat top left;
+    background-size: 80px 60px;
 }
