@@ -12,17 +12,17 @@ role :app, "hackdebib.wbdrp.be"
 namespace :node do
     desc "Start the node application"
     task :start do
-      sudo "forever start server.js"
+      "forever start server.js"
     end
 
     desc "Stop the node application"
     task :stop do
-      sudo "forever stop server.js"
+      "forever stop server.js"
     end
 
     desc "Restart the node application"
     task :restart do
-      sudo "forever stop server.js"
-      sudo "forever start server.js"
+      "forever stop server.js"
+      "forever start server.js"
     end
 end
