@@ -9,10 +9,19 @@ $(document).ready(function() {
         controlArrows: true
     });
 
-    $('#reserve').on('click', function(event) {
+    $('#reserve-btn').on('click', function(event) {
     	event.preventDefault();
 
-    	
+    	$(this).fadeOut();
+        $('#bibno').focus();
+    });
+
+    $('#bibno').on('keyup', function(event) {
+        event.preventDefault();
+
+        if (event.keyCode === 13) {
+            $(this).fadeOut();
+        }
     });
 
 
