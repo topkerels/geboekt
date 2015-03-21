@@ -22,7 +22,7 @@ namespace :node do
 
     desc "Restart the node application"
     task :restart do
-      sudo "stop #{upstart_job_name}; true"
-      sudo "start #{upstart_job_name}"
+      sudo "forever stop server.js"
+      sudo "forever start server.js"
     end
 end
