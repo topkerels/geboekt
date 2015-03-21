@@ -9,6 +9,12 @@ $(document).ready(function() {
         controlArrows: true
     });
 
+    $('#book-long-btn').on('click', function(event) {
+        event.preventDefault();
+
+        $('.book-long').slideToggle();
+    });
+
     $('#reserve-btn').on('click', function(event) {
     	event.preventDefault();
 
