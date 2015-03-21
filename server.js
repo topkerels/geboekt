@@ -53,7 +53,13 @@ app.get('/', function (req, res) {
 });
 
 app.get('/app', function (req, res) {
-    console.log(pickRandomProperty(banners));
+    res.render('app', {
+        banner : banners[pickRandomProperty(banners)],
+        book : books[pickRandomProperty(books)]
+    });
+});
+
+app.get('/18273', function (req, res) {
     res.render('app', {
         banner : banners[pickRandomProperty(banners)],
         book : books[pickRandomProperty(books)]
