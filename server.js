@@ -13,5 +13,9 @@ app.get('/', function (req, res) {
     res.render('index');
 });
 
+app.get('/app', function (req, res) {
+    res.render('app');
+});
+
 app.listen(8000);
 util.puts('> geboekt.gent running on port 8000');
