@@ -3,9 +3,13 @@
   "description": "",
   "version": "0.0.0",
   "private": true,
-  "author": "Anthony Meirlaen",
+  "author": "Topkerels",
   "homepage": "",
-  "contributors": [ "Anthony Meirlaen <anthony.meirlaen@gmail.com> (https://github.com/Toinne)" ],
+  "contributors": [ 
+    "Shaun Janssens (https://github.com/shaunjanssens",
+    "Anthony Meirlaen (https://github.com/Toinne)",
+    "Pieter Van Molle (https://github.com/pvmolle)"
+  ],
   "bugs": { "url": "" },
   "dependencies": {
     "express": "4.12.3",
