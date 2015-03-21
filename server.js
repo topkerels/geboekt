@@ -11,6 +11,10 @@ var banners = {
     1: {
         name: 'pieter',
         title: 'title-pieter.png'
+    },
+    2: {
+        name: 'shaun',
+        title: 'title-shaun.png'
     }
 };
 
@@ -18,10 +22,14 @@ var books = {
     0: {
         title: 'Een dag in Gent',
         background: 'bg-herman.png',
-        cover: 'cover.png',
+        cover: 'cover-herman.png',
         author: 'Herman Brusselmans',
-        short: '',
-        long: ''
+        short: 'Wakker worden, opstaan, tandenpoetsen. Spek eten. De echtgenote uitwuiven ',
+        long: '',
+        review: {
+            rating: 5,
+            quote: 'Ranzig en goor. Helemaal perfect dus!'
+        }
     }
 };
 
@@ -48,7 +56,7 @@ app.get('/app', function (req, res) {
     console.log(pickRandomProperty(banners));
     res.render('app', {
         banner : banners[pickRandomProperty(banners)],
-        book : banners[pickRandomProperty(books)]
+        book : books[pickRandomProperty(books)]
     });
 });
 
