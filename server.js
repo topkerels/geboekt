@@ -25,7 +25,7 @@ var books = {
         cover: 'cover-herman.png',
         author: 'Herman Brusselmans',
         short: 'Wakker worden, opstaan, tandenpoetsen. Spek eten. De echtgenote uitwuiven ',
-        long: '',
+        long: 'Op zomaar een dag uit het leven van Herman Brusselmans heeft hij heel wat te doen. Wakker worden, opstaan, tandenpoetsen. Spek eten. De echtgenote uitwuiven die naar Antwerpen vertrekt. De hond naar een oud, bevriend echtpaar brengen. Naar de apotheker gaan. Navraag doen in een motorwinkel. Een depressieve vrouw onderhouden en haar meenemen naar een restaurant, om er een eenvoudige lunch te gebruiken. Naar het theater lopen om de repetitie bij te wonen van een toneelstuk van eigen hand. Een meisje bezoeken op haar flatje. Op straat praten met een boekhouder. In een horlogewinkel de nieuwste modellen bekijken. Daar een vreemd avontuur beleven. De hond afhalen. ',
         review: {
             rating: 5,
             quote: 'Ranzig en goor. Helemaal perfect dus!'
