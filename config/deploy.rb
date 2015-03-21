@@ -1,7 +1,7 @@
 require "capistrano/node-deploy"
 
 set :application, "geboekt"
-set :repository,  "git@github.com:Toinne/geboekt.git"
+set :repository,  "git@github.com:topkerels/geboekt.git"
 set :scm, :git
 set :deploy_to, "/var/www/geboekt"
 
