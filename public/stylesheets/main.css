@@ -156,3 +156,10 @@ img.book-cover {
     height: auto;
     margin-right: 20px;
 }
+
+.reserve-btn {
+    padding: 15px 0;
+    text-align: center;
+    border: 3px solid #333;
+    border-radius: 4px;
+}
