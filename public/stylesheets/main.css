@@ -48,19 +48,19 @@ table {
 
 /* FULLPAGE NAVIGATION */
 
-#fullPage-nav span, .fullPage-slidesNav span {
+#fp-nav span, .fullPage-slidesNav span {
+    background-color: #ffffff !important;
+}
+#fp-nav li a, .fullPage-slidesNav li a {
 
 }
-#fullPage-nav li a, .fullPage-slidesNav li a {
+#fp-navv li, .fullPage-slidesNav li {
 
 }
-#fullPage-nav li, .fullPage-slidesNav li {
+#fp-nav ul, .fullPage-slidesNav ul {
 
 }
-#fullPage-nav ul, .fullPage-slidesNav ul {
-
-}
-#fullPage-nav {
+#fp-nav {
 
 }
 .fullPage-tooltip {
