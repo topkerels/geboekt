@@ -10,7 +10,7 @@ var banners = {
     },
     1: {
         name: 'pieter',
-        title: 'title-pieter.png'
+        title: 'title-title-pieter.png'
     }
 };
 
@@ -48,7 +48,7 @@ app.get('/app', function (req, res) {
     console.log(pickRandomProperty(banners));
     res.render('app', {
         banner : banners[pickRandomProperty(banners)],
-        book : banners[pickRandomProperty(books)]
+        book : books[pickRandomProperty(books)]
     });
 });
 
