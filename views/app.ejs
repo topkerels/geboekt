@@ -27,8 +27,15 @@
                 <h2 class="book-title"><%= book.title %></h2>
                 <div class="book-author"><%= book.author %></div>
                 <div class="book-short"><%= book.short %></div>
+                <div class="book-long-btn">Lees meer over dit boek</div>
                 <div class="book-long"><%= book.long %></div>
                 <div class="book-quote"><%= book.review.quote %></div>
+                <div class="book-stars">
+                    <img src="/images/star.png" />
+                    <img src="/images/star.png" />
+                    <img src="/images/star.png" />
+                    <img src="/images/star.png" />
+                </div>
                 <div class="navigate">
                     <img src="/images/nav.png" />
                     <p>Je bent in de bib. Wat is jouw excuus?</p>
@@ -38,6 +45,7 @@
                         Gadet doen? Reserveer dit boek!
                     </div>
                     <input type="text" id="bibno" class="reserve-input" />
+                    <div class="reserve-msg" id="reserve-msg">Geslaagd!</div>
                 </div>
             </div>
         </div>
